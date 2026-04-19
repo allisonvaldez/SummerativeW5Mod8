@@ -1,26 +1,61 @@
 {
-    "store_info": [
-        {
-            "id": 1,
-            "name": "Coffee R Us",
-            "description": "The go to store for coffee",
-            "phone_number": "555-5555"
-        }
-    ],
-    "coffee": [
-        {
-            "id": 1,
-            "description": "Medium Roast, nutty flavor",
-            "name": "Vanilla bean",
-            "origin": "Columbia",
-            "price": 10.00
-        },
-        {
-            "id": 2,
-            "description": "Dark Roast, Rich flavor",
-            "name": "House Blend",
-            "origin": "Vietnam",
-            "price": 12.00
-        }
-    ]
+  "store_info": [
+    {
+      "id": "1",
+      "name": "Coffee R Us",
+      "description": "The go to store for coffee",
+      "phone_number": "555-5555"
+    }
+  ],
+  "coffees": [
+    {
+      "id": "1",
+      "name": "Ethiopian Yirgacheffe",
+      "description": "Bright and floral",
+      "origin": "Ethiopia",
+      "price": 14.99,
+      "location": "Location 1"
+    },
+    {
+      "id": "2",
+      "name": "Colombian Supremo",
+      "description": "Rich and smooth",
+      "origin": "Colombia",
+      "price": 12.99,
+      "location": "Location 2"
+    },
+    {
+      "id": "3",
+      "name": "Sumatra Mandheling",
+      "description": "Bold and earthy",
+      "origin": "Indonesia",
+      "price": 13.99,
+      "location": "Location 3"
+    },
+    {
+      "id": "4",
+      "name": "Kenya AA",
+      "description": "Fruity and bright",
+      "origin": "Kenya",
+      "price": 15.99,
+      "location": "Location 4"
+    },
+    {
+      "name": "dsafa",
+      "description": "fdsasa",
+      "origin": "fdsafsa",
+      "price": -0.01,
+      "location": "Location 1",
+      "id": "qSmSSslkJus"
+    },
+    {
+      "name": "fdsa",
+      "description": "fdsaf",
+      "origin": "fsadfsa",
+      "price": 0.02,
+      "location": "Location 1",
+      "id": "2-kvgrAkWzk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

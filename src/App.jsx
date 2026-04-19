@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <CoffeProvider>
+      <CoffeeProvider>
         <BrowserRouter>
           <Routes>
             {/* Home page */}
@@ -23,7 +23,7 @@ function App() {
             <Route path="/admin" element={<AdminPortal />} />
           </Routes>
         </BrowserRouter>
-      </CoffeProvider>
+      </CoffeeProvider>
     </>
   )
 }

@@ -27,7 +27,7 @@ function AdminPortal() {
         e.preventDefault();
         addCoffee({
             name: name.value,
-            description: discription.value,
+            description: description.value,
             origin: origin.value,
             price: parseFloat(price.value),
             location: "Location 1"
