@@ -1,8 +1,8 @@
 // Import useState
 import { useState } from "react";
 
-// Create a function and set its initialValue as empty
-function useFormInput(initialValue = "") {
+// Create and export a function and set its initialValue as empty
+export function useFormInput(initialValue = "") {
     // Set initial states to initialValue
     const [value, setValue] = useState(initialValue);
 
@@ -16,9 +16,6 @@ function useFormInput(initialValue = "") {
         setValue(initialValue);
     }
 
-    // Return value, change hander, and perform reset so components can utilize
+    // Return value, change handler, and perform reset so components can utilize
     return { value, onChange: handleChange, reset };
 }
-
-// Make it globally available
-export default useFormInput;

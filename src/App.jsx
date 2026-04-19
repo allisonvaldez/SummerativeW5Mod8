@@ -1,6 +1,6 @@
 // Import useState, heroImg, components, and style components
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { CoffeProvider } from "./context/CoffeeContext";
+import { CoffeeProvider } from "./context/CoffeeContext";
 import Home from "./pages/Home"
 import Shop from "./pages/Shop"
 import AdminPortal from "./pages/AdminPortal"
