@@ -1,0 +1,36 @@
+.shop-layout {
+    display: flex;
+    background-color: #8b6347;
+    min-height: 90vh;
+    padding: 20px;
+    gap: 20px
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 160px;
+}
+
+.search-input {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #d4b89a;
+}
+
+.location-label {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+}
+
+.coffee-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    flex: 1;
+}
