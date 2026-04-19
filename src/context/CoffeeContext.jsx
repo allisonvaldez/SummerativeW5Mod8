@@ -1,5 +1,5 @@
 // Import necessary components, useState, useEffect, createContext, and react
-import React, { createContext, useState, useEffect } from "react"
+import React, { createContext, useState, useEffect } from "react";
 
 // Make sure CoffeeProvider wraps the app and provides the coffees and functions 
 function CoffeeProvider({ children }) {
